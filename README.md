@@ -23,7 +23,7 @@ Google Form → Google Sheets → SQLite DB → QR Generation → Email → Scan
 
 - Python 3.10+
 - A Gmail account with an [App Password](https://myaccount.google.com/apppasswords)
-- A Google Cloud project with a Service Account (see setup below)
+- A Google Cloud project with a Service Account
 - Your own domain / VPS to host `app.py`
 
 ---
