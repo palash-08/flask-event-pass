@@ -13,6 +13,8 @@ from sheet_logger import log_redemption_to_sheet
 
 load_dotenv()
 
+DB_PATH = "util_scripts/events.db"
+
 app = Flask(__name__)
 
 EVENT_NAME = os.getenv("EVENT_NAME", "Fest420")
