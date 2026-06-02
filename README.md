@@ -94,7 +94,7 @@ gunicorn -w 1 -b 0.0.0.0:5000 app:app
 ### Step 5 — Scan at the event
 
 `index.html` is served via nginx... Open the site as set in nginx config and scan the QR codes
-# Use Certbot for SSL Cert generation.
+> Use Certbot for SSL Cert generation.
 
 ---
 
