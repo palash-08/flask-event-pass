@@ -8,7 +8,7 @@ from functools import wraps
 from dotenv import load_dotenv
 from flask import Flask, jsonify, make_response, render_template_string, request
 
-from db import DB_PATH, get_db, init_db
+from util_scripts.db import DB_PATH, get_db, init_db 
 from sheet_logger import log_redemption_to_sheet
 
 load_dotenv()
